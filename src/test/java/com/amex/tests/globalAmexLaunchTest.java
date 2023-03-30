@@ -13,7 +13,7 @@ public class globalAmexLaunchTest {
     @BeforeTest
     public void setupDriver(){
         //set chromedriver path
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\683132\\OneDrive - Cognizant\\chromedriver109\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "Your local path\" +"\\chromedriver109\\chromedriver.exe");
         this.driver = new ChromeDriver();
     }
     @Test
